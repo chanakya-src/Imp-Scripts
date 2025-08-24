@@ -1,4 +1,10 @@
-vim .bashrc
+# Install Docker
+sudo yum install docker -y
+
+# Start Docker service
+sudo systemctl start docker
+
+# Enable Docker to start on bootvim .bashrc
 export PATH=$PATH:/usr/local/bin/
 source .bashrc
 
