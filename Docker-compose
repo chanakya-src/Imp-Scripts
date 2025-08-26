@@ -5,8 +5,8 @@ sudo yum install docker -y
 sudo systemctl start docker
 
 vim .bashrc
-export PATH=$PATH:/usr/local/bin/
-source .bashrc
+#export PATH=$PATH:/usr/local/bin/
+#source .bashrc
 
 
 # Download the LATEST stable release of Docker Compose
